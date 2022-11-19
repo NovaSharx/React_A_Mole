@@ -14,8 +14,7 @@ function EmptySlot(props) {
 
     return (
         <div>
-            <h2>Mole Hill</h2>
-            <img style={{'width': '300px'}} src={moleHillImg} alt="Mole Hill Image" onClick={props.handleClick} />
+            <img className="mole-hill" src={moleHillImg} alt="Mole Hill Image" onClick={props.handleClick} />
         </div>
     )
 }
